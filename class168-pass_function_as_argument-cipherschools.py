@@ -15,3 +15,5 @@ def my_map2(func, l):
 
 print(my_map(square,l))
 print(my_map2(square, l))
+
+print(list(map(lambda y:y**(1/4), l)))
